@@ -8,6 +8,17 @@ const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michel
 
 function printStudentNames(){
     // Add code here
+
+    const studentListLenght = studentList.length;
+
+    for (i = 0; i < studentListLenght; i++) {
+        console.log("The student name is " + studentList[i]);
+    }
+
+    return studentList;
+
+    console.log(studentListLenght);
+
 }
 
 printStudentNames();

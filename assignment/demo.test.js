@@ -27,3 +27,22 @@ describe("Demo", ()=>{
     })
 })
 //So when the command `npm run test` is run, it calls the test suite and runs the individual tests.
+
+
+
+// My Test Environment for Q1
+// Own test only
+
+// const {envCheck, printStudentNames, studentList} = require("./");
+
+// describe("Test the envinronment: DEV",  ()=>{
+//     //it keyword
+//     it("Should be devuser:password", () => {
+//         // The below result will not be work, need to find out the reason
+//         // const result = envCheck(env);
+
+//         // Working result
+//         const result = envCheck("DEV");
+//         expect(result).toBe("devuser:password");
+//     })
+// })
